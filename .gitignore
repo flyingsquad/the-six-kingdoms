@@ -1,0 +1,14 @@
+# 
+*.lock
+*.scc
+.gitattributes
+*.log
+LOCK
+LOG
+*.old
+data/fog
+data/messages
+data/users
+data/drawings
+data/settings
+data/combats

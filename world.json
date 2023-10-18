@@ -1,0 +1,19 @@
+{
+  "title": "The Future King",
+  "id": "the-six-kingdoms",
+  "system": "dnd5e",
+  "coreVersion": "11.313",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.313"
+  },
+  "systemVersion": "2.3.1",
+  "background": "worlds/the-six-kingdoms/images/Flag_of_Wales.svg",
+  "lastPlayed": "Tue Oct 17 2023 19:03:00 GMT-0500 (Central Daylight Time)",
+  "playtime": 15053,
+  "safeMode": false,
+  "joinTheme": "minimal",
+  "url": "https://github.com/flyingsquad/flying-squad",
+  "manifest": "https://raw.githubusercontent.com/flyingsquad/the-six-kingdoms/main/world.json",
+  "download": "https://github.com/flyingsquad/the-six-kingdoms/archive/refs/tags/v1.0.0.zip"
+}
