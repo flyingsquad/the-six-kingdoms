@@ -12,3 +12,4 @@ data/users
 data/drawings
 data/settings
 data/combats
+data/*.db
