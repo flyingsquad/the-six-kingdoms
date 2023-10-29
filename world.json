@@ -9,11 +9,11 @@
   },
   "systemVersion": "2.3.1",
   "background": "worlds/the-six-kingdoms/images/Flag_of_Wales.svg",
-  "lastPlayed": "Fri Oct 27 2023 22:22:07 GMT-0500 (Central Daylight Time)",
-  "playtime": 49058,
+  "lastPlayed": "Sun Oct 29 2023 14:25:25 GMT-0500 (Central Daylight Time)",
+  "playtime": 27288,
   "safeMode": false,
   "joinTheme": "minimal",
-  "url": "https://github.com/flyingsquad/flying-squad",
+  "url": "https://github.com/flyingsquad/the-six-kingdoms",
   "manifest": "https://raw.githubusercontent.com/flyingsquad/the-six-kingdoms/main/world.json",
-  "download": "https://github.com/flyingsquad/the-six-kingdoms/archive/refs/tags/v1.0.1.zip"
+  "download": "https://github.com/flyingsquad/the-six-kingdoms/archive/refs/tags/v1.0.2.zip"
 }
