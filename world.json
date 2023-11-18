@@ -2,18 +2,44 @@
   "title": "The Future King",
   "id": "the-six-kingdoms",
   "system": "dnd5e",
-  "coreVersion": "11.313",
+  "coreVersion": "11.315",
   "compatibility": {
     "minimum": "11",
-    "verified": "11.313"
+    "verified": "11.315"
   },
   "systemVersion": "2.3.1",
   "background": "worlds/the-six-kingdoms/images/Flag_of_Wales.svg",
-  "lastPlayed": "Sun Oct 29 2023 16:28:40 GMT-0500 (Central Daylight Time)",
-  "playtime": 29964,
+  "lastPlayed": "Fri Nov 17 2023 22:35:01 GMT-0600 (Central Standard Time)",
+  "playtime": 108952,
   "safeMode": false,
   "joinTheme": "minimal",
   "url": "https://github.com/flyingsquad/the-six-kingdoms",
   "manifest": "https://raw.githubusercontent.com/flyingsquad/the-six-kingdoms/main/world.json",
-  "download": "https://github.com/flyingsquad/the-six-kingdoms/archive/refs/tags/v1.0.2.zip"
+  "download": "https://github.com/flyingsquad/the-six-kingdoms/archive/refs/tags/v1.0.2.zip",
+  "packs": [
+    {
+      "label": "Containers",
+      "type": "Item",
+      "name": "containers",
+      "path": "packs/containers",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Character Backups",
+      "type": "Actor",
+      "name": "character-backups",
+      "path": "packs/character-backups",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
 }

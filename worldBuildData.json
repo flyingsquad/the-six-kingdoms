@@ -1,0 +1,107 @@
+{
+	"customText": {
+		"race": {
+			"title": "Choose Lineage",
+			"description": "Choose your character's lineage."
+		},
+		"background": {
+			"title": "Choose Background",
+			"description": "Choose the background for your character."
+		}
+	},
+	"races": [
+		{
+			"name": "Celt",
+			"abilities": {
+				"description": "Your ability scores each increase by 1.",
+				"Strength": 1,
+				"Dexterity": 1,
+				"Constitution": 1,
+				"Intelligence": 1,
+				"Wisdom": 1,
+				"Charisma": 1					
+			},
+			"size": "med",
+			"speed": 30,
+			"languages": [
+				{"name": "common"},
+				{"choose": 1}
+			]
+		},
+		{
+			"name": "Galatai",
+			"abilities": {
+				"description": "Two different ability scores of your choice increase by 1. <b>Be sure to enter these values in Racial Bonus for two abilities</b>."
+			},
+			"size": "med",
+			"speed": 30,
+			"features": [
+				{"choose": 1, "category": "feats"}
+			],
+			"skills": [
+				{"choose": 1}
+			]
+		},
+		{
+			"name": "Orkney",
+			"abilities": {
+				"description": "Your Strength score increases by 2, and your Constitution score increases by 1.",
+				"Strength": 2,
+				"Constitution": 1
+			},
+			"size": "med",
+			"speed": 30,
+			"darkvision": 60,
+			"features": [
+				{"name": "Relentless Endurance", "uuid": "Compendium.dnd5e.races.Item.97c8i9Z28thvZuA8"},
+				{"name": "Savage Attacks", "uuid": "Compendium.dnd5e.races.Item.0kUsT4sMUOr5FcoX"}
+			],
+			"skills": [
+				{"name": "itm"}
+			],
+			"languages": [
+				{"name": "common"},
+				{"custom": "Orkney"}
+			]
+		},
+		{
+			"name": "Saxon",
+			"abilities": {
+				"description": "Increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20. <b>Be sure to enter these values in Racial Bonus</b>."
+			},
+			"size": "med",
+			"speed": 30,
+			"features": [
+				{"name": "Adrenaline Rush", "uuid": "Compendium.additional-dnd5e-resources.races.Item.1VsSIyu46d51I3zp"},
+				{"name": "Relentless Endurance", "uuid": "Compendium.additional-dnd5e-resources.races.Item.EDH0kE8VZ4HIYu94"}
+			],
+			"languages": [
+				{"name": "common"},
+				{"custom": "Anglo-Saxon"}
+			]
+		}		
+	],
+	"subraces": [
+	],
+	"backgrounds": [
+	],
+	"classes": [
+	],
+	"subclasses": [
+	],
+	"customLanguages" : [
+		"Latin",
+		"Anglo-Saxon"
+	],
+	"exclusions": {
+		"races": ["Dragonborn", "Half-Orc", "Human"],
+		"classes": ["Monk"],
+		"subclasses": [],
+		"subraces": ["Dark Elf"]
+	},
+	"customlanguages" : [
+		"Anglo-Saxon",
+		"Latin",
+		"Orkney"
+	]
+}
